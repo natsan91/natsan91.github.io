@@ -42,11 +42,11 @@
           {% include thoughts.html %}
         {% endunless %}
 
-        {% if site.topics %}
+        {% include projects.html %}
+		
+		{% if site.topics %}
           {% include interests.html %}
         {% endif %}
-		
-		{% include projects.html %}
       
       </div>
     </div>

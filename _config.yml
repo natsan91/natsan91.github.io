@@ -21,14 +21,21 @@ topics:
     web_url: https://github.com/topics/machine-learning
     image_url: docs/Machine_Learning.png
     
-  - name: Data assimilation
-    #web_url: https://github.com/topics/sass
-    #image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
-
-  - name: Rare Events
-    web_url: https://en.wikipedia.org/wiki/Rare_event_sampling
-    image_url: docs/Rare_Events.png
+  # - name: Data Science
+    # web_url: https://github.com/topics/data-science
+    # image_url: docs/Data_Science.png
     
+  - name: Stochastics
+    web_url: https://github.com/topics/stochastic-processes
+    image_url: docs/Stochastic_Simulation.png
+    
+  # - name: Rare Events
+    # web_url: https://en.wikipedia.org/wiki/Rare_event_sampling
+    # image_url: docs/Rare_Events.png
+    
+  - name: Optimization
+    web_url: https://en.wikipedia.org/wiki/Mathematical_optimization
+    image_url: docs/Optimization.png
     
 projects:
   sort_by: pushed
