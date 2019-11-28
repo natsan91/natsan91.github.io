@@ -41,13 +41,13 @@ where $f$ is now multiplied by the *likelihood ratio* of the biased noise $L(\ma
 This all might sound simple enough, but the most difficult part of importance sampling is the determination of the biasing distribution, which is usually accomplished through some kind of optimization. For instance, in my mode-locked laser research, I studied an *escape problem* where I was interested in the probability that a pulse of light would escape its bit-slot (or wander outside of the time allotted for its transmission) and cause a communication error. A number of stabilizing physical elements needed to be overcome for this to occur, so the error paths were found to be quite complicated. These paths, found using a combination of asymptotic, analytic, and numerical methods, sometimes involved a large number of oscillations.
 
 <div class="center">
-<video width=":100%" controls>
+<video width="300" controls>
   <source src="/docs/Oscillations3.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video> 
 </div>
 
-For more on importance sampling please view my [tutorial repository]( https://github.com/natsan91/Importance_Sampling) on Github. 
+This video shows an exit path that goes through two oscillations. The pulse is shown in the top panel, and the drift of the pulse is shown in frequency-position phase space in the bottom panel (the frequency is coupled to the velocity of the pulse so it gives information on the pulse's movement). For more on importance sampling please view my [tutorial repository]( https://github.com/natsan91/Importance_Sampling) on Github. 
 
 
 
